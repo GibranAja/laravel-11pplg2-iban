@@ -7,7 +7,6 @@ use App\Http\Controllers\SkillController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\CertificateController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\DashboardAdmin;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use SebastianBergmann\CodeCoverage\Report\Xml\Project;
