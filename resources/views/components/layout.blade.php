@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <x-navbar></x-navbar>
         <!-- Masthead-->
-        <x-header> {{ $slot }} </x-header>
+        <x-header :konten="$konten">{{ $slot }}</x-header>
 
         
         <!-- Portfolio Section-->
